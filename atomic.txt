@@ -1,0 +1,139 @@
+# Course Title: Understanding Atomic Structures
+
+## Chapter 1: Introduction to Atomic Structure
+
+### Subheading: What is an Atom?
+~~
+An atom is the smallest unit of ordinary matter that forms a chemical element. Every solid, liquid, gas, and plasma is composed of atoms.
+~~
+
+### Subheading: Basic Parts of an Atom
+~~
+1. **Protons**: Positively charged particles located in the nucleus.
+2. **Neutrons**: Neutral particles that also reside in the nucleus.
+3. **Electrons**: Negatively charged particles that orbit the nucleus in various energy levels.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Pu5QqeRvNwg?si=qk_58i3VOpHSWig8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the charge of a neutron? <br>(a) Positive <br> (b) Negative <br> (c) Neutral <br> (d) Variable {c}
+
+
+## Chapter 2: Atomic Models
+
+### Subheading: Thomson's Plum Pudding Model
+~~
+J.J. Thomson proposed the plum pudding model, where the atom is composed of electrons scattered within a "soup" of positive charge, like plums within a pudding.
+~~
+
+### Subheading: Rutherford's Nuclear Model
+~~
+Ernest Rutherford conducted the famous gold foil experiment and concluded that atoms consist of a small, dense, positively charged nucleus surrounded by electrons.
+~~
+
+### Subheading: Bohr's Model of the Atom
+~~
+Niels Bohr proposed that electrons move in specific orbits around the nucleus and that energy is emitted or absorbed when an electron moves between orbits. The energy levels are quantized.
+Math: \( E_n = - \frac{13.6}{n^2} \text{eV} \)
+
+Where:
+- \( E_n \) is the energy of the electron in the \( n \)-th orbit,
+- \( n \) is the principal quantum number.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/FMIovR7GQHg?si=Zvslu0ox3CkYdY_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: Who proposed the plum pudding model? <br>(a) Bohr <br> (b) Rutherford <br> (c) Thomson <br> (d) Dalton {c}
+
+
+## Chapter 3: Quantum Mechanical Model of the Atom
+
+### Subheading: Wave-Particle Duality
+~~
+Electrons exhibit both particle and wave-like behavior, as demonstrated by experiments such as the double-slit experiment. This is described by the wave-particle duality theory.
+~~
+
+### Subheading: Schrödinger Equation
+~~
+The quantum mechanical model of the atom is based on Schrödinger’s wave equation, which describes how the quantum state of a physical system changes over time.
+Math: \( \hat{H} \Psi = E \Psi \)
+
+Where:
+- \( \hat{H} \) is the Hamiltonian operator,
+- \( \Psi \) is the wave function,
+- \( E \) is the energy of the system.
+~~
+
+### Subheading: Quantum Numbers
+~~
+There are four quantum numbers that describe the properties of atomic orbitals and the electrons in those orbitals:
+1. **Principal quantum number \( n \)**: Describes the size of the orbital.
+2. **Angular momentum quantum number \( l \)**: Describes the shape of the orbital.
+3. **Magnetic quantum number \( m_l \)**: Describes the orientation of the orbital.
+4. **Spin quantum number \( m_s \)**: Describes the spin of the electron.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/8fYlVEjME0w?si=GSz1mdF_30IJUXqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What does the principal quantum number represent? <br>(a) Orbital size <br> (b) Orbital shape <br> (c) Electron spin <br> (d) Orbital orientation {a}
+
+
+## Chapter 4: Atomic Orbitals
+
+### Subheading: Shapes of Orbitals
+~~
+The shape of an atomic orbital is determined by the angular momentum quantum number \( l \). For example:
+- \( s \)-orbitals are spherical,
+- \( p \)-orbitals are dumbbell-shaped,
+- \( d \)-orbitals have more complex shapes.
+~~
+
+### Subheading: Electron Configurations
+~~
+Electron configurations describe the distribution of electrons among the various orbitals of an atom. For example, the electron configuration of carbon is \( 1s^2 2s^2 2p^2 \).
+~~
+
+### Subheading: Pauli Exclusion Principle
+~~
+The Pauli exclusion principle states that no two electrons in the same atom can have the same set of quantum numbers. This means that each electron in an atom has a unique quantum state.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/S6qkC0MBQUw?si=DssLKGDPgonOMXzv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: Which orbitals are spherical in shape? <br>(a) \( s \)-orbitals <br> (b) \( p \)-orbitals <br> (c) \( d \)-orbitals <br> (d) \( f \)-orbitals {a}
+
+
+## Chapter 5: Atomic Interactions
+
+### Subheading: Coulomb's Law
+~~
+Coulomb's law describes the force between two charged particles. The electrostatic force \( F \) between two charges \( q_1 \) and \( q_2 \) is given by:
+Math: \( F = k_e \frac{q_1 q_2}{r^2} \)
+
+Where:
+- \( F \) is the electrostatic force,
+- \( k_e \) is Coulomb’s constant,
+- \( r \) is the distance between the charges.
+~~
+
+### Subheading: Ionization Energy
+~~
+Ionization energy is the energy required to remove an electron from a neutral atom. The higher the ionization energy, the more difficult it is to remove an electron.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/4lzV1sDLCak?si=XgGgz5WBE3ks-rAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Question: What does ionization energy represent? <br>(a) Energy released during bonding <br> (b) Energy required to add an electron <br> (c) Energy required to remove an electron <br> (d) Energy transferred between atoms {c}
+
+
+## Chapter 6: Conclusion
+
+### Subheading: Summary and Further Reading
+~~
+Atomic structure is fundamental to understanding the behavior of matter at the microscopic level. For further study, refer to:
+- "Principles of Atomic Physics" by Richard P. Feynman
+- Online resources on quantum mechanics and atomic models.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/1CGGcFgWm1E?si=trGMr7xEGmdDNXTC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: Which model of the atom introduced the concept of quantized energy levels? <br>(a) Bohr's model <br> (b) Plum pudding model <br> (c) Nuclear model <br> (d) Schrödinger model {a}

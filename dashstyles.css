@@ -1,0 +1,70 @@
+
+
+.profilecont {
+    height: 20vh;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profilecont section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.dashLogout {
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color:white;
+    border-color:transparent;
+    margin: auto;
+
+}
+.crsdata {
+    display: flex;
+}
+.one{
+    padding: 10px;
+ background-color: #333333;
+ height: 50vh;
+ margin: 5px;
+ width: 30vw;
+}
+
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #444444 #333333;
+}
+.two{
+    padding: 10px;
+ background-color: #333333;
+ height: 50vh;
+ margin: 5px;
+ width: 70vw;
+ overflow: auto;
+}
+.bty {
+    border-color: transparent;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.coursearea {
+    padding: 10px;
+    
+}
+.slc{
+    padding: 10px;
+    cursor: pointer;
+}
+.slc:hover {
+    background-color: whitesmoke;
+    color:red;
+}
+

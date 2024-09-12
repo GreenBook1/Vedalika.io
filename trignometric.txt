@@ -1,0 +1,120 @@
+# Course Title: Understanding Trigonometric Equations
+
+## Chapter 1: Introduction to Trigonometric Equations
+
+### Subheading: What is a Trigonometric Equation?
+~~
+A trigonometric equation is an equation that involves trigonometric functions of a variable. The variable is often an angle, and the functions typically include sine, cosine, tangent, and their reciprocals.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/6AImCqiv7UY?si=dB-qfUlSZF97TtKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Subheading: Basic Trigonometric Functions
+~~
+1. **Sine (\(\sin\))**: The ratio of the length of the opposite side to the hypotenuse in a right triangle.
+2. **Cosine (\(\cos\))**: The ratio of the length of the adjacent side to the hypotenuse in a right triangle.
+3. **Tangent (\(\tan\))**: The ratio of the length of the opposite side to the length of the adjacent side.
+4. **Cotangent (\(\cot\))**: The reciprocal of the tangent function.
+5. **Secant (\(\sec\))**: The reciprocal of the cosine function.
+6. **Cosecant (\(\csc\))**: The reciprocal of the sine function.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/dsA7VvRD24o?si=0RoR9ZCEC-D7_RJD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the reciprocal of the cosine function? <br>(a) Sine <br> (b) Tangent <br> (c) Secant <br> (d) Cotangent {c}
+
+## Chapter 2: Solving Basic Trigonometric Equations
+
+### Subheading: Solving \(\sin(x) = a\)
+~~
+To solve the equation \(\sin(x) = a\), where \( -1 \leq a \leq 1 \), find the angles \( x \) for which the sine of \( x \) equals \( a \). The general solution is given by:
+Math: \( x = \sin^{-1}(a) + 2n\pi \text{ or } x = \pi - \sin^{-1}(a) + 2n\pi \)
+
+Where:
+- \( n \) is any integer.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/9VCD8q_FgPU?si=Fyegrn7YnUQdsjp5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Subheading: Solving \(\cos(x) = a\)
+~~
+To solve the equation \(\cos(x) = a\), where \( -1 \leq a \leq 1 \), find the angles \( x \) for which the cosine of \( x \) equals \( a \). The general solution is given by:
+Math: \( x = \cos^{-1}(a) + 2n\pi \text{ or } x = -\cos^{-1}(a) + 2n\pi \)
+
+Where:
+- \( n \) is any integer.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/VMAMARmmDac?si=EhkiyHVorYBJH96m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the general solution for \(\cos(x) = a\)? <br>(a) \( x = \cos^{-1}(a) + 2n\pi \text{ or } x = -\cos^{-1}(a) + 2n\pi \) <br> (b) \( x = \sin^{-1}(a) + 2n\pi \text{ or } x = \pi - \sin^{-1}(a) + 2n\pi \) <br> (c) \( x = \tan^{-1}(a) + n\pi \text{ or } x = \pi - \tan^{-1}(a) + n\pi \) <br> (d) None of the above {a}
+
+## Chapter 3: Trigonometric Identities
+
+### Subheading: Pythagorean Identities
+~~
+The Pythagorean identities relate the squares of the trigonometric functions to 1:
+Math: 
+1. \( \sin^2(x) + \cos^2(x) = 1 \)
+2. \( 1 + \tan^2(x) = \sec^2(x) \)
+3. \( 1 + \cot^2(x) = \csc^2(x) \)
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/VMAMARmmDac?si=EhkiyHVorYBJH96m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Subheading: Double-Angle Formulas
+~~
+Double-angle formulas are used to find the trigonometric functions of double angles:
+Math:
+1. \( \sin(2x) = 2 \sin(x) \cos(x) \)
+2. \( \cos(2x) = \cos^2(x) - \sin^2(x) \)
+3. \( \tan(2x) = \frac{2 \tan(x)}{1 - \tan^2(x)} \)
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/LBhRiTw_uXw?si=1aueK3xKzNBHbyNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the double-angle formula for \(\sin(2x)\)? <br>(a) \( \sin(2x) = 2 \sin(x) \cos(x) \) <br> (b) \( \sin(2x) = \sin^2(x) + \cos^2(x) \) <br> (c) \( \sin(2x) = \frac{2 \tan(x)}{1 - \tan^2(x)} \) <br> (d) None of the above {a}
+
+## Chapter 4: Advanced Trigonometric Equations
+
+### Subheading: Solving \(\sin(ax + b) = c\)
+~~
+To solve the equation \(\sin(ax + b) = c\), where \( -1 \leq c \leq 1 \), find the values of \( x \) using:
+Math: \( ax + b = \sin^{-1}(c) + 2n\pi \text{ or } ax + b = \pi - \sin^{-1}(c) + 2n\pi \)
+
+Where:
+- \( n \) is any integer.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/_McuKeG9DQI?si=zY7yOHEYltUt-gmT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Subheading: Solving \(\cos(ax + b) = c\)
+~~
+To solve the equation \(\cos(ax + b) = c\), where \( -1 \leq c \leq 1 \), find the values of \( x \) using:
+Math: \( ax + b = \cos^{-1}(c) + 2n\pi \text{ or } ax + b = -\cos^{-1}(c) + 2n\pi \)
+
+Where:
+- \( n \) is any integer.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/2usVyTSYDyw?si=4sfPn6Xz5P27xQl1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the general solution for \(\sin(ax + b) = c\)? <br>(a) \( ax + b = \sin^{-1}(c) + 2n\pi \text{ or } ax + b = \pi - \sin^{-1}(c) + 2n\pi \) <br> (b) \( ax + b = \cos^{-1}(c) + 2n\pi \text{ or } ax + b = -\cos^{-1}(c) + 2n\pi \) <br> (c) \( ax + b = \tan^{-1}(c) + n\pi \text{ or } ax + b = \pi - \tan^{-1}(c) + n\pi \) <br> (d) None of the above {a}
+
+## Chapter 5: Applications of Trigonometric Equations
+
+### Subheading: Trigonometric Equations in Real Life
+~~
+Trigonometric equations are used in various real-life applications such as engineering, physics, and navigation. For instance, they are used to model periodic phenomena like sound waves and seasonal variations.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/LBhRiTw_uXw?si=1aueK3xKzNBHbyNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Subheading: Graphing Trigonometric Functions
+~~
+Graphing trigonometric functions involves plotting the values of sine, cosine, and tangent functions against the angle. Key characteristics include amplitude, period, phase shift, and vertical shift.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/2usVyTSYDyw?si=4sfPn6Xz5P27xQl1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is a key characteristic of the graph of \(\sin(x)\)? <br>(a) Amplitude <br> (b) Angle <br> (c) Speed <br> (d) Direction {a}
+
+## Chapter 6: Conclusion
+
+### Subheading: Summary and Further Reading
+~~
+Understanding trigonometric equations is essential for solving various mathematical and real-world problems. For further study, refer to:
+- "Trigonometry for Dummies" by Mary Jane Sterling
+- Online resources on trigonometric functions and their applications.
+~~
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/kfw9vNw6FFU?si=tnI4mpr1vsgEWwgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the primary purpose of solving trigonometric equations? <br>(a) To model periodic phenomena <br> (b) To find the value of constants <br> (c) To solve linear equations <br> (d) None of the above {a}

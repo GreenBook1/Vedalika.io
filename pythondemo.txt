@@ -1,0 +1,151 @@
+# Course Title: Understanding Thermodynamics
+
+## Chapter 1: Introduction to Thermodynamics
+
+### Subheading: What is Thermodynamics?
+~~
+Thermodynamics is the branch of physics that deals with heat, work, and energy. It studies how these quantities are related and how energy is transferred in different forms.
+~~
+
+### Subheading: Basic Concepts of Thermodynamics
+~~
+1. **System**: A thermodynamic system is the part of the universe we are interested in studying.
+2. **Surroundings**: Everything outside the system.
+3. **Internal Energy**: The total energy contained within a system.
+4. **First Law of Thermodynamics**: The change in internal energy of a system is equal to the heat added to the system minus the work done by the system.
+Image: path/to/basic-concepts-thermodynamics-image.png
+~~
+
+Video: https://www.youtube.com/watch?v=kpulR_gnyFU&output=embed
+
+Question: What is the first law of thermodynamics? <br> (a) Energy can be created <br> (b) Energy can be destroyed <br> (c) Energy can neither be created nor destroyed <br> (d) None of the above {c}
+
+
+## Chapter 2: Laws of Thermodynamics
+
+### Subheading: Zeroth Law of Thermodynamics
+~~
+The Zeroth Law of Thermodynamics states that if two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
+~~
+
+### Subheading: First Law of Thermodynamics
+~~
+The First Law of Thermodynamics is a statement of energy conservation:
+Math: \( \Delta U = Q - W \)
+
+Where:
+- \( \Delta U \) is the change in internal energy,
+- \( Q \) is the heat added to the system, and
+- \( W \) is the work done by the system.
+~~
+
+### Subheading: Second Law of Thermodynamics
+~~
+The Second Law of Thermodynamics introduces the concept of entropy \( S \), and states that the total entropy of an isolated system can never decrease over time.
+Math: \( \Delta S \geq 0 \)
+
+Where:
+- \( \Delta S \) is the change in entropy.
+~~
+
+Video: https://www.youtube.com/watch?v=VDMe6AVTlS8&output=embed
+
+Question: What does the second law of thermodynamics deal with? <br> (a) Conservation of energy <br> (b) Increase of entropy <br> (c) Decrease of energy <br> (d) Increase of work {b}
+
+
+## Chapter 3: Heat Engines
+
+### Subheading: Carnot Engine
+~~
+A Carnot engine is a theoretical engine that operates on the reversible Carnot cycle. It provides the maximum possible efficiency that a heat engine can achieve.
+The efficiency of a Carnot engine is given by:
+Math: \( \eta = 1 - \frac{T_C}{T_H} \)
+
+Where:
+- \( T_C \) is the temperature of the cold reservoir,
+- \( T_H \) is the temperature of the hot reservoir.
+~~
+
+### Subheading: Heat Pumps
+~~
+Heat pumps transfer heat from a colder area to a warmer area. The coefficient of performance (COP) of a heat pump is given by:
+Math: \( COP = \frac{Q_H}{W} \)
+
+Where:
+- \( Q_H \) is the heat transferred to the hot reservoir,
+- \( W \) is the work input.
+~~
+
+Video: https://www.youtube.com/watch?v=pCtqQvVVr6M&output=embed
+
+Question: What is the efficiency of a Carnot engine operating between \( T_C = 300K \) and \( T_H = 600K \)? <br> (a) 0.5 <br> (b) 0.25 <br> (c) 0.75 <br> (d) 1 {a}
+
+
+## Chapter 4: Entropy
+
+### Subheading: Definition of Entropy
+~~
+Entropy is a measure of the disorder or randomness of a system. The greater the disorder, the higher the entropy. The change in entropy is given by:
+Math: \( \Delta S = \frac{Q_{rev}}{T} \)
+
+Where:
+- \( \Delta S \) is the change in entropy,
+- \( Q_{rev} \) is the reversible heat transfer,
+- \( T \) is the absolute temperature.
+~~
+
+### Subheading: Entropy in Real-World Processes
+~~
+In real-world processes, entropy always increases. This is why natural processes are irreversible. Entropy also plays a key role in determining the direction of heat transfer.
+~~
+
+Video: https://www.youtube.com/watch?v=EXdPsyFJ6r0&output=embed
+
+Question: What does entropy measure? <br> (a) Energy <br> (b) Disorder <br> (c) Work <br> (d) Heat {b}
+
+
+## Chapter 5: Thermodynamic Processes
+
+### Subheading: Isothermal Process
+~~
+In an isothermal process, the temperature of the system remains constant. The work done in an isothermal process is given by:
+Math: \( W = nRT \ln \left( \frac{V_f}{V_i} \right) \)
+
+Where:
+- \( W \) is the work done,
+- \( n \) is the number of moles of gas,
+- \( R \) is the gas constant,
+- \( T \) is the temperature,
+- \( V_f \) and \( V_i \) are the final and initial volumes, respectively.
+~~
+
+### Subheading: Adiabatic Process
+~~
+In an adiabatic process, there is no heat exchange with the surroundings. The relation between pressure and volume in an adiabatic process is given by:
+Math: \( PV^\gamma = \text{constant} \)
+
+Where:
+- \( P \) is the pressure,
+- \( V \) is the volume,
+- \( \gamma \) is the heat capacity ratio.
+~~
+
+Video: https://www.youtube.com/watch?v=CEYgRaA0nv8&output=embed
+
+Question: In which process is there no heat exchange with the surroundings? <br> (a) Isothermal <br> (b) Adiabatic <br> (c) Isobaric <br> (d) Isochoric {b}
+
+
+## Chapter 6: Conclusion
+
+### Subheading: Summary and Further Reading
+~~
+Thermodynamics is a fundamental branch of physics that deals with the laws governing heat, energy, and work. For further study, refer to:
+- "Thermodynamics: An Engineering Approach" by Yunus A. Çengel
+- Online resources on thermodynamic processes.
+~~
+
+Image: path/to/thermodynamics-summary-image.png
+
+Video: https://www.youtube.com/watch?v=CEYgRaA0nv8&output=embed
+
+Question: What is the main subject of thermodynamics? <br> (a) Heat and energy <br> (b) Light and reflection <br> (c) Magnetic fields <br> (d) Chemical reactions {a}

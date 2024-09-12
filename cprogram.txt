@@ -1,0 +1,162 @@
+# Course Title: Mastering C Programming
+
+## Chapter 1: Introduction to C Programming
+
+### Subheading: What is C Programming?
+~~
+C is a powerful general-purpose programming language that was developed in the 1970s by Dennis Ritchie. It is widely used for system software, application development, and embedded systems.
+~~
+
+### Subheading: History of C
+~~
+C was developed at Bell Labs and has influenced many other programming languages, including C++, Java, and Python. It remains one of the most popular languages for low-level programming.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/AZdfLJ_hmXI?si=sc7jGfFM9e1Vmwht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: Who developed the C programming language? <br> (a) James Gosling <br> (b) Bjarne Stroustrup <br> (c) Dennis Ritchie <br> (d) Guido van Rossum {c}
+
+
+## Chapter 2: Setting Up the Environment
+
+### Subheading: Installing a C Compiler
+~~
+To write and run C programs, you need a C compiler like GCC. GCC can be installed using the following commands:
+- On Linux: `sudo apt-get install gcc`
+- On macOS: `brew install gcc`
+- On Windows: Install the MinGW compiler.
+
+~~
+
+### Subheading: Writing Your First Program
+~~
+The first program every programmer writes is the "Hello, World!" program. Here's how to do it in C:
+#include <stdio.h>
+int main() { printf("Hello, World!\n"); return 0; }
+This program prints "Hello, World!" to the console.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/57WZGhqhbxg?si=a6iWIsvSJr442HIX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What does the `#include <stdio.h>` directive do in C? <br> (a) It includes standard input/output functions <br> (b) It declares variables <br> (c) It starts the program <br> (d) None of the above {a}
+
+
+## Chapter 3: Variables and Data Types
+
+### Subheading: Basic Data Types in C
+~~
+C provides several basic data types for storing different kinds of information:
+1. `int`: Used for integers.
+2. `float`: Used for floating-point numbers.
+3. `char`: Used for single characters.
+4. `double`: Used for large floating-point numbers.
+Example:
+int age = 21; float price = 19.99; char grade = 'A'; double largeNumber = 123456.789;
+~~
+
+### Subheading: Constants and Variables
+~~
+A variable is a memory location used to store data, while a constant holds a value that does not change. Here's an example of declaring a constant in C:
+#define PI 3.14159
+Constants are typically declared using the `#define` directive or the `const` keyword.
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/JEV8JBOec_U?si=cRh1y3TVo9z31lBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What data type is used for single characters in C? <br> (a) int <br> (b) float <br> (c) char <br> (d) double {c}
+
+
+## Chapter 4: Control Structures
+
+### Subheading: Conditional Statements
+~~
+Conditional statements allow the program to make decisions based on certain conditions. The `if` statement is the most common type of conditional statement:
+int num = 10; if (num > 5) { printf("The number is greater than 5\n"); } else { printf("The number is 5 or less\n"); }
+~~
+
+### Subheading: Loops in C
+~~
+Loops allow you to execute a block of code multiple times. C provides three types of loops:
+1. `for` loop:
+for (int i = 0; i < 10; i++) { printf("%d\n", i); }
+3. `do-while` loop:
+int i = 0; do { printf("%d\n", i); i++; } while (i < 10);
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/wYvrBXUfFfw?si=6qFtp7OlRBtCLEUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: Which loop guarantees at least one execution of the loop body? <br> (a) for <br> (b) while <br> (c) do-while <br> (d) None of the above {c}
+
+
+## Chapter 5: Functions in C
+
+### Subheading: Defining and Using Functions
+~~
+A function is a block of code that performs a specific task. Here's the syntax for defining a function:
+int addNumbers(int a, int b) { return a + b; }
+In this example, `addNumbers` is a function that takes two integers as arguments and returns their sum.
+~~
+
+### Subheading: Function Prototypes
+~~
+Before using a function in C, you must declare its prototype. A function prototype tells the compiler the return type, name, and parameters of the function.
+Example:
+int addNumbers(int a, int b); // Function prototype
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/vDI_fyKYjHc?si=_eKufqBIjfngee3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What does a function prototype do in C? <br> (a) It executes the function <br> (b) It tells the compiler about the function <br> (c) It loops through data <br> (d) It returns the value of a function {b}
+
+
+## Chapter 6: Pointers
+
+### Subheading: Introduction to Pointers
+~~
+A pointer is a variable that stores the memory address of another variable. In C, pointers are declared using the `*` symbol:
+int a = 10; int *p = &a; // p now holds the memory address of a
+~~
+
+### Subheading: Pointer Arithmetic
+~~
+You can perform arithmetic operations on pointers to navigate through an array. For example:
+int arr[3] = {10, 20, 30}; int *p = arr; p++; // p now points to the next element in the array
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/IBjGjDbwxSg?si=d1tpwN06TKM2pgp5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is stored in a pointer? <br> (a) A variable value <br> (b) A variable address <br> (c) A loop condition <br> (d) A return value {b}
+
+
+## Chapter 7: Arrays
+
+### Subheading: Declaring Arrays
+~~
+An array is a collection of elements of the same data type. Here’s how you declare and initialize an array in C:
+int arr[5] = {1, 2, 3, 4, 5};
+~~
+
+### Subheading: Multidimensional Arrays
+~~
+C also allows you to create arrays with more than one dimension. A two-dimensional array, for example, can be declared as:
+int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+~~
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/36z4qgN3GWw?si=hBWesyxSU2c-GODK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: How do you declare an array of 5 integers? <br> (a) `int arr[5];` <br> (b) `int array(5);` <br> (c) `int[5] arr;` <br> (d) `array int[5];` {a}
+
+
+## Chapter 8: Conclusion
+
+### Subheading: Wrapping Up and Resources
+~~
+C is a versatile language that lays the foundation for other programming languages. For more in-depth learning, refer to:
+- "The C Programming Language" by Brian W. Kernighan and Dennis Ritchie
+- Online tutorials and coding platforms.
+~~
+
+
+Video: <iframe width="560" height="315" src="https://www.youtube.com/embed/puXps4LuCVA?si=7sWcgTR3OXrIi89N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Question: What is the main characteristic of C programming? <br> (a) Object-oriented <br> (b) Procedural <br> (c) Functional <br> (d) Declarative {b}

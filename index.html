@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Name</title>
+    <link rel="icon" href="search.png" type="image/x-icon"> <!-- Favicon -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dashstyles.css">
+    <script src="https://unpkg.com/convex@1.3.1/dist/browser.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="play.png" alt="Logo" class="logo"> <!-- Your logo here -->
+                <span class="company-name">Vedalika</span>
+            </div>
+            <div class="menu-icon">
+                <img src="search.png" alt="Menu"> <!-- Mobile menu icon -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a id="logout">Institution</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." id="search-input">
+                <button type="submit"><img src="search.png" alt="Search"></button> <!-- Search icon -->
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-id">
+        <div style="display: flex; align-items: center;justify-content: space-around;">
+            <section>
+                <p class="head-title">Get Certified<br>Courses</p>
+            </section>
+            <section><button id="strlearn"  class="strlearn">Start Learning</button></section>
+        </div>
+        <section class="main-content">
+            <aside class="links-section">
+                <h2>Available Topics</h2><br>
+                <ul id="courses-list">
+                    <!-- dynamically fetched list of course from data base -->
+                    
+                    
+                </ul>
+            </aside>
+
+            <section id="output-section" class="output-section">
+                
+            </section>
+            
+        </section>
+    </main>
+
+
+        <p id="features"></p>
+        <!-- AI GENERATED -->
+         
+        <section  style="margin-top: 20vh;margin-bottom: 20vh;">
+            <h1 style="text-align: center;">Features We Have</h1>
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            Free Courses
+                        </div>
+                        <div class="card-back">
+                            
+                            <p>All courses in our Platform are Available at free of cost. You dont need to pay until you want a certification.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            Progress Tracking
+                        </div>
+                        <div class="card-back">
+                            <p>You get a fully detailed progress tracker of each course. When you complete the course you can apply for the certificate.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            Contests
+                        </div>
+                        <div class="card-back">
+                            <p>There are regular contest hosted for diffrent topics. Students can participate and win prizes on just by Participating and certification to top candidates.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            AI Courses
+                        </div>
+                        <div class="card-back">
+                            <p>You can generate a custom course of any topic you want with help of AI like ChatGpt or any other..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <p id="about-us"></p>
+
+        <section class="section-about-us" style="margin-top: 20vh;margin-bottom: 20vh; padding: 20px; align-self: center; margin-right: 20vw;margin-left: 20vw;">
+            <h1 style="text-align: center;">About Us</h1>
+            <h2 style="color: orange;">Welcome to Vedalika</h2>
+            <p style="color: snow; line-height: 1.6;">
+                At Vedalika, we are committed to transforming education through innovative technology and interactive learning. Our mission is to make high-quality education accessible to everyone, anywhere. We believe in harnessing the power of technology to create engaging and effective learning experiences for students of all ages.
+            </p>
+            <br><br><br>
+            <h1 style="text-align: center;">Meet Our CEO</h1>
+            <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+                <img src="ceo.jpeg" alt="CEO Image" style="border-radius: 10%; width: 300px; height: 300px; object-fit: cover;">
+                <div >
+                    <h2 style="margin: 0; color: orange;">John Doe</h2>
+                    <p style="color: #777;">CEO & Founder</p>
+                    <p style="color: snow; line-height: 1.6;">
+                        John Doe is the visionary behind Vedalika. With over 20 years of experience in education and technology, John leads our team with passion and dedication. Under his leadership, Vedalika has grown from a small startup to a leading EdTech company, providing cutting-edge solutions for learners worldwide.
+                    </p>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="pricing" class="section pricing" style="margin-bottom: 20vh;">
+            <h1 style="text-align: center;">Pricing</h1><br><br>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <!-- Free Plan -->
+                <div style="background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 250px; padding: 20px; text-align: center;">
+                    <h2 style="margin-top: 0; color: orange;">Free Plan</h2>
+                    <p style="font-size: 24px; color: orange; margin: 0;">$0</p>
+                    <p style="color: #777;">Basic features</p>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="margin-bottom: 10px;">Access to basic features</li>
+                        <li style="margin-bottom: 10px;">Limited support</li>
+                        <li style="margin-bottom: 10px;">No trial period</li>
+                    </ul>
+                    <button style="background-color: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px;">Sign Up</button>
+                </div>
+        
+                <!-- Basic Plan -->
+                <div style="background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 250px; padding: 20px; text-align: center;">
+                    <h2 style="margin-top: 0; color: orange;">Basic Plan</h2>
+                    <p style="font-size: 24px; color: orange; margin: 0;">$19.99/month</p>
+                    <p style="color: #777;">Standard features</p>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="margin-bottom: 10px;">Access to standard features</li>
+                        <li style="margin-bottom: 10px;">Email support</li>
+                        <li style="margin-bottom: 10px;">7-day trial period</li>
+                    </ul>
+                    <button style="background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px;">Sign Up</button>
+                </div>
+        
+                <!-- Premium Plan -->
+                <div style="background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 250px; padding: 20px; text-align: center;">
+                    <h2 style="margin-top: 0; color: orange;">Premium Plan</h2>
+                    <p style="font-size: 24px; color: orange; margin: 0;">$49.99/month</p>
+                    <p style="color: #777;">All features</p>
+                    <ul style="list-style: none; padding: 0; margin: 20px 0;">
+                        <li style="margin-bottom: 10px;">Access to all features</li>
+                        <li style="margin-bottom: 10px;">Priority support</li>
+                        <li style="margin-bottom: 10px;">30-day trial period</li>
+                    </ul>
+                    <button style="background-color: #ffc107; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px;">Sign Up</button>
+                </div>
+            </div>
+        </section>
+
+        
+    
+
+    <!--auth0 sdk -->
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="my.js"></script>
+</body>
+
+</html>

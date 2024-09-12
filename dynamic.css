@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color:#222222;
+    padding: 20px;
+}
+
+.courseContainer{
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    height: 80vh;
+    overflow: auto;
+}
+
+.quizb{
+    padding: 3px 10px;
+    border-radius: 3pxpx;
+    border-color: transparent;
+
+}
+.quizinput{
+    border-radius: 3px;
+    border-color: transparent;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+html{
+    scrollbar-width: thin;
+    scrollbar-color: #444444 #333333;
+}
+
+.trackcontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    height: 10vh;
+    margin-top: 10px;
+    overflow: auto;
+    color: snow;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px; 
+}
+.quizcontainer {
+    width: 50vw;
+    height: 60vh;
+    overflow: auto;
+    color: snow;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;  
+}
+
+h1, h2, h3 {
+    color: wheat;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color:white;
+}
+
+img {
+    display: block;
+    margin-bottom: 15px;
+}
+
+video {
+    display: block;
+    margin-bottom: 15px;
+}
+
+pre {
+    background-color: wheat;
+    color: #f8f8f2;
+    padding: 10px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+}
+
+.math-equation {
+    font-style: italic;
+    font-weight: bold;
+    color:yellow;
+}
