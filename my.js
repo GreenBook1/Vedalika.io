@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       domain: "dev-j7x7ckm7eg86c7hw.us.auth0.com",
       clientId: "IsW715PKUhth8XHyrEvkvnvRntyRrgaQ",
       authorizationParams: {
-        redirect_uri: window.location.origin,
+        redirect_uri: window.location.href,
       },
     })
     .then(async (auth0Client) => {
