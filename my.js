@@ -1,3 +1,4 @@
+console.log(window.location.origin);
 document.addEventListener("DOMContentLoaded", async function () {
   auth0
     .createAuth0Client({
