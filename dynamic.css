@@ -38,6 +38,7 @@ html{
     width: 50vw;
     height: 10vh;
     margin-top: 10px;
+    margin-bottom: 10px;
     overflow: auto;
     color: snow;
     background-color: #333333;
@@ -88,4 +89,30 @@ pre {
     font-style: italic;
     font-weight: bold;
     color:yellow;
+}
+.tor{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:1350px){
+
+    iframe {
+        width: 80vw;
+        height: 50vh;
+    }
+    .trackcontainer{
+        flex-direction: row;
+        width: 90vw;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    .quizcontainer{
+        width: 90vw;
+        height: 40vh;
+        margin-left: auto;
+    }
+
+    .roomto{
+        flex-direction: column;
+    }
 }

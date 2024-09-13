@@ -122,6 +122,7 @@ function parseCourseFile(fileContent) {
       html += `<p>Math Equation: <span class="math-equation">${mathEquation}</span></p>`;
     }
   });
+
   updatechart();
 
   // Final check for any remaining open blocks

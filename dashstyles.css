@@ -1,7 +1,8 @@
 
 
 .profilecont {
-    height: 20vh;
+    margin: auto;
+    overflow: auto;
     padding:10px;
     border-radius: 10px;
     background-color: #333333;
@@ -38,6 +39,8 @@ html{
     scrollbar-width: thin;
     scrollbar-color: #444444 #333333;
 }
+
+
 .two{
     padding: 10px;
  background-color: #333333;
@@ -66,5 +69,31 @@ html{
 .slc:hover {
     background-color: whitesmoke;
     color:red;
+}
+
+@media(max-width:750px){
+    .dasho{
+        flex-direction: column;
+    }
+    .crsdata{
+        flex-direction: column;
+    }
+    .one{
+        height: auto;
+        width: 90vw;
+        overflow: auto;
+    }
+    .two{
+        width: 90vw;
+    }
+    
+}
+@media(max-width:1000px){
+    .dasho{
+        flex-direction: column;
+    }
+    .dasho p {
+        margin-bottom: 10px;
+    }
 }
 

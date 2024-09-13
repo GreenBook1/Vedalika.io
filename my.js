@@ -67,7 +67,7 @@ function courseselect(i) {
   document.getElementById(selectedcourse).style.backgroundColor = "#333333";
   document.getElementById("output-section").innerHTML =
     `<h2>${tad[i].coursename}  by 👉 ${tad[i].author} <p style="text-align:right;">Beginner</p></h2>
-  <div style="display:flex;align-item:center;justify-content:space-around;">
+  <div class="dasho" style="display:flex;align-item:center;justify-content:space-around;">
   <p style="padding:10px 50px;background-color:orange;border-radius:5px;">Enrolled - ${tad[i].studentsenrolled}</p>
   <p style="padding:10px 50px;background-color:green;border-radius:5px;">Students Completed - ${tad[i].studentscompleted}</p>
   <p style="padding:10px 50px;background-color:blue;border-radius:5px;">Score - ${tad[i].coursepoints}</p>
@@ -104,7 +104,7 @@ async function fetchcourse() {
   const defcont = document.getElementById("output-section");
 
   defcont.innerHTML = `<h2>${tad[0].coursename}  by 👉 ${tad[0].author} <p style="text-align:right;">Beginner</p></h2>
-  <div style="display:flex;align-item:center;justify-content:space-around;">
+  <div class="homepagedetx">
   <p style="padding:10px 50px;background-color:orange;border-radius:5px;">Enrolled - ${tad[0].studentsenrolled}</p>
   <p style="padding:10px 50px;background-color:green;border-radius:5px;">Students Completed - ${tad[0].studentscompleted}</p>
   <p style="padding:10px 50px;background-color:blue;border-radius:5px;">Score - ${tad[0].coursepoints}</p>
@@ -135,8 +135,10 @@ function changetodashboard() {
     </section>
     </div>
     <div class="crsdata"><section class="one">
+      <div>
       <button onclick="change_cont(0)" id="bty1" style="background-color:green;" class="bty">Enrolled</button>
       <button onclick="change_cont(1)" id="bty2" class="bty">Recomended</button>
+      </div>
       <aside id="coursearea" class="coursearea" style="overflow:auto;">No Enrolled Courses</aside>
     </section><section id="output-section" class="two">Select Course to see Status here</section></div>
     <div id="contests" class="contests"></div>
